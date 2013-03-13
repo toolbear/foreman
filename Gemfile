@@ -20,4 +20,6 @@ group :development do
   gem "simplecov", :require => false
   gem 'timecop'
   gem 'yard'
+  # FIXME: delete this; it's only here for initial peer review
+  gem 'foreman-env', :git => 'git://github.com/toolbear/foreman-env.git'
 end
